@@ -1,1 +1,13 @@
-body
+body {
+    background: url("image.jpg") center/cover fixed no-repeat;
+}
+
+.glass {
+    width: 60%;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+}
+
